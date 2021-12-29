@@ -1,0 +1,54 @@
+/* HOME */
+#home {
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/restaurant-interior.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menuHeroContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuHeroContainer > .title {
+    margin: 1.5rem;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+#menuHeroContainer .description {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.75rem;
+    color: var(--white);
+}
+
+/* SCHEDULE */
+#schedule {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#schedule .title {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+#schedule-table {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#schedule-table th {
+    text-align: right;
+}

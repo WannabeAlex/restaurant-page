@@ -1,0 +1,46 @@
+#menu-container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-container > .title {
+    margin: 2rem;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.item-list {
+    display: grid;
+    gap: 5rem 0;
+    grid-template-columns: 50% 50%;
+}
+
+.item-container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+/* IMAGE */
+.item-image {
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+/* INFORMATION */
+#menu-container .item-container .information {
+    margin-left: 1rem;
+}
+
+#menu-container .information .title {
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+    text-align: start;
+}
+
+#menu-container .information .description {
+    font-size: 1.1rem;
+}

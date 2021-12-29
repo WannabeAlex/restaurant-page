@@ -1,0 +1,36 @@
+#contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-container > .title {
+    margin: 2rem 0 3rem;
+    font-size: 2.5rem;
+}
+
+#contact-container .item-list {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-container .item-container {
+    width: 50%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-container .item-container > .title {
+    margin: 1.25rem 1.25rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+#contact-container .item-container > .information {
+     margin: 0 1.25rem 1.25rem 1.25rem;
+}
